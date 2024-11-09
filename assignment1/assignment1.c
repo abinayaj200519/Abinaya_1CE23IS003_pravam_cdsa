@@ -17,3 +17,10 @@ int power(int base, int a) {
     else
     return 1;
 }
+
+
+//Input: The program prompts the user to enter a base number (base) and an exponent (a).
+
+//Recursive Power Calculation: The power function computes the result by recursively multiplying the base by itself, reducing the exponent by 1 in each recursive call until the exponent becomes 0. When the exponent is 0, the function returns 1 (base case).
+
+//Output: The result, base^a, is then printed.
